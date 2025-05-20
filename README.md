@@ -23,6 +23,7 @@ Além disso, o sistema realiza a detecção de anomalias com base em regras defi
 
 ```bash
 pip install opencv-python mediapipe numpy pandas tqdm
+```
 
 
 ## Uso
