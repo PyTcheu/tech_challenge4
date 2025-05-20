@@ -1,0 +1,14 @@
+Criar classe main para processar o video e contabilizar frames e armazenar contadores de Anomalias, Expressões e Atividades
+Criar classes de detecção de anomalias
+Criar classe de analise de video, isolando função de detecção de emoções e atividades por frame
+Usando apenas MediaPipe por questões de ambiente
+Isolando classes para expandir mais tranquilamente, escalabilidade e manutenção de codigo
+
+melhorias - 
+1. Diferentes tipos de anomalias a depender do proposito
+2. Thresholds Configuráveis para cada tipo de anomalias (Qtd de frames de tolerancia para detectá-las)
+3. Segmentar partes com mais rostos e detectar individualmente
+4. Aumentar numero de expressões e emoções na classe (Atual [Neutro, Sorrindo, Olhos Fechados]) - Incluir [Triste, Surpreso, Ansioso ou com Medo]
+5. Auemtnar numero de atividades no video (Detectar dança, escrever, manuseio de instrumentos...)
+6. Aumentar tolerancia para movimentos bruscos
+7. Basear decisões de atividades e emoções com limiares de confiança ao inves de puro if else (A ordem acaba importando para expressões mais sensiveis)
