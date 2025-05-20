@@ -33,7 +33,7 @@ pip install opencv-python mediapipe numpy pandas tqdm
 O script principal (`main.py`) processa um vídeo definido em `VIDEO_PATH`, realiza as análises e gera um relatório com as informações de rostos detectados, emoções predominantes, atividades e possíveis anomalias.
 
 ```bash
-python main.py
+python main.py # assumindo path = video.mp4
 ```
 
 Antes de executar o modulo main.py, tenha certeza que definiu o caminho do vídeo .mp4 na mesma pasta que o script se localiza
